@@ -41,13 +41,22 @@ body {
 .header, .visual, .main, .slogan, .footer {
   width:940px;
   margin :0 auto;
- 
-  
 }
 
 .header{
-  height: 10vh;
+  
 }
+
+/*숨김 컨xpscm */
+.a11y-hidden {
+  position: absolute;
+  width:1px;
+  height: 1px;
+  overflow: hidden;
+  margin:-1px;
+  clip : rect(0,0,0,0);
+  clip-path : polygon(0 0,0 0,0 0)
+
 
 /* 비주얼 */
 .visual {
