@@ -306,6 +306,42 @@ a{
 .clearfix {
   clear: both;
 }
+/* 검색폼 */
+.search-form {
+  background: #ccc linear-gradient(#ccc,#eee);
+  border-radius: 15px 15px 0 0 ;
+  padding: 15px 25px 10px;
+  border: 1px solid #aaa;
+  border-bottom-color:  #fff;
+ 
+
+}
+.search-form * {
+ vertical-align: top;
+}
+
+.search-form fieldset {
+  
+}
+
+.search-form [name="search"] {
+  width:200px;
+  height: 24px;
+  border:1px solid #aaa;
+  border-radius: 3px;
+  padding : 1px 1px 1px 0.5em;
+ 
+}
+
+.btn-search {
+  border:1px solid #aaa;
+  border-radius: 3px;
+  padding : 0 10px;
+  background: #222;
+  color:#fff;
+  height: 24px;
+  margin-left:2px;
+}
 
 
 /* 슬로건 */
