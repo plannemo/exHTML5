@@ -476,6 +476,43 @@ a{
 .director-name {
   font-weight:400;
 }
+/**/
+
+.event {
+  border-bottom: 1px solid #ccc;
+  padding : 10px;
+}
+
+.event-related {
+  background: yellow;
+}
+.event-heading {
+  font-size:1.6rem;
+  font-weight:400;
+  
+}
+
+.event-color {
+  
+}
+
+
+
+.event-heading span {
+  color:red;
+  font-weight:400;
+ 
+}
+.event-item-thumbnail {
+ text-align: center;
+}
+
+.event-item-thumbnail img{
+  box-shadow: 5px 5px 0 0 #aaa;
+  text-align: center;
+}
+
+
 /* 푸터 */
 .footer-bg {
   background: 
